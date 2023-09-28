@@ -5,10 +5,10 @@ import './assets/index.css'  // CSS FILE
 
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
-import AboutMe from './pages/AboutMe';
-import Projects from './pages/Projects';    
-import Contact from './pages/Contact';
-import Resume from './pages/Resume';
+import AboutMe from './pages/about';
+import Projects from './pages/projects';    
+import Contact from './pages/contact';
+import Resume from './pages/resume';
 
 const router = createBrowserRouter([
     {
@@ -17,19 +17,19 @@ const router = createBrowserRouter([
       children: [
         {
           index: true,
-          element: <AboutMe/>,
+          element: <about/>,
         },
         {
           path: '/Projects',
-          element: <Projects/>,
+          element: <projects/>,
         },
         {
           path: '/Contact',
-          element: <Contact />
+          element: <contact />
         },
         {
           path: '/Resume',
-          element: <Resume />
+          element: <resume />
         }
       ],
     },
