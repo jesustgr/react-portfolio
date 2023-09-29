@@ -6,6 +6,6 @@
   :root {
     font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
     line-height: 2;
-    color: #8CBCFF;
-    background-color: #3A4972;
+    color: white;
+    background-color: rgb(0,0,0);
   }

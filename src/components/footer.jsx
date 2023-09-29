@@ -10,14 +10,14 @@ export default function Footer() {
     margin: '0 70px', // Margin on each side
     cursor: 'pointer', // Show cursor pointer on hover
     float: 'right',
-    backgroundColor:'black',
+    backgroundColor:'rgb(50,50,50',
     padding: '10px',
     borderRadius: '10px',
     zIndex: '9'
   };
 
   const iconHoverStyle = {
-    color: '#8CBCFF', // Color on hover
+    color: 'rgb(200,100,100)', // Color on hover
   };
 
   const footerStyles = {
@@ -32,7 +32,7 @@ export default function Footer() {
 
   return (
     <div style={footerStyles}>
-        <a href="https://www.instagram.com/jordan___lopez/">
+        <a href="https://www.instagram.com/jtgreyes/">
             <FaInstagram
                 style={hoveredIcon === 'Instagram' ? { ...iconStyle, ...iconHoverStyle } : iconStyle}
                 onMouseEnter={() => setHoveredIcon('Instagram')}
@@ -40,14 +40,14 @@ export default function Footer() {
             />
         </a>
 
-        <a href="https://www.linkedin.com/in/jordanlopez123/">
+        <a href="https://www.linkedin.com/in/jt-reyes/">
             <FaLinkedinIn
                 style={hoveredIcon === 'LinkedIn' ? { ...iconStyle, ...iconHoverStyle } : iconStyle}
                 onMouseEnter={() => setHoveredIcon('LinkedIn')}
                 onMouseLeave={() => setHoveredIcon(null)}
             />
         </a>
-        <a href="https://github.com/Lopez-Jordan">
+        <a href="https://github.com/jesustgr">
             <FaGithub
                 style={hoveredIcon === 'Github' ? { ...iconStyle, ...iconHoverStyle } : iconStyle}
                 onMouseEnter={() => setHoveredIcon('Github')}

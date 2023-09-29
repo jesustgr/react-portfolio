@@ -5,7 +5,7 @@ import './assets/index.css'  // CSS FILE
 
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
-import AboutMe from './pages/about';
+import About from './pages/about';
 import Projects from './pages/projects';    
 import Contact from './pages/contact';
 import Resume from './pages/resume';
@@ -17,19 +17,19 @@ const router = createBrowserRouter([
       children: [
         {
           index: true,
-          element: <about/>,
+          element: <About/>,
         },
         {
           path: '/Projects',
-          element: <projects/>,
+          element: <Projects/>,
         },
         {
           path: '/Contact',
-          element: <contact />
+          element: <Contact />
         },
         {
           path: '/Resume',
-          element: <resume />
+          element: <Resume />
         }
       ],
     },

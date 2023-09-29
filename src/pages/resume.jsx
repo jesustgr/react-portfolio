@@ -14,7 +14,7 @@ export default function Resume() {
             <button
               style={{
                 padding: '10px 20px',
-                backgroundColor: '#8CBCFF',
+                backgroundColor: 'rgb(200,100,100)',
                 color: 'white',
                 border: 'none',
                 borderRadius: '10px',
@@ -30,8 +30,8 @@ export default function Resume() {
                   textDecoration: 'none',
                   color: 'white',
                 }}
-                href="/Resume.pdf"
-                download="Resume.pdf"
+                href="/Resume-4.pdf"
+                download="Resume-4.pdf"
               >
                 Download Resume Here
               </a>
@@ -46,7 +46,6 @@ export default function Resume() {
                 <li>MongoDB</li>
                 <li>Handlebars</li>
                 <li>Insomnia</li>
-                <li>Bootstrap and UIkit</li>
               </ul>
               <ul style={{marginLeft: '200px'}}>
                 <li>Express.js</li>
@@ -55,7 +54,7 @@ export default function Resume() {
                 <li>Sequelize</li>
                 <li>Server side API and Web API</li>
                 <li>Full Stack Development</li>
-                <li>And MANY more</li>
+                <li>Bootstrap and UIkit</li>
               </ul>
           </div>
         </>

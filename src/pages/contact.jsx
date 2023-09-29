@@ -13,12 +13,12 @@ export default function Contact() {
       setEmailError('Invalid email address');
     } else {
       setEmailError('');
-      alert(`Success, ${name}! This form doesn't work though :/`);
+      alert(`Success, ${name}! But this form unfortunately does not work`);
       setName('');
       setEmail('');
       setMessage('');
     }
-    alert('this form doesnt actually work :( please reach out to me via email: jordanlopezemail@gmail.com')
+    alert('Unfortunately this form does not work yet. Please reach out to me via email: jesustgreyes@gmail.com')
   };
 
   const validateEmail = (email) => {
@@ -40,7 +40,7 @@ export default function Contact() {
 
   const buttonStyle = {
     padding: '10px 20px',
-    backgroundColor: '#8CBCFF',
+    backgroundColor: 'rgb(200,100,100)',
     color: 'white',
     border: 'none',
     borderRadius: '10px',
@@ -55,7 +55,7 @@ export default function Contact() {
     <div style={{ textAlign: 'center', margin: '50px auto', padding: '20px' }}>
       <h1>Contact Me !</h1>
       <h3 style={{ marginTop: '20px', marginBottom: '30px' }}>
-        I would love to connect and answer any questions you might have
+        I am looking forward to hearing from you!
       </h3>
       <form
         style={{ display: 'flex', flexDirection: 'column', maxWidth: '400px', margin: '0 auto' }}
@@ -75,7 +75,7 @@ export default function Contact() {
           name="email"
           onChange={(e) => setEmail(e.target.value)}
           type="text"
-          placeholder="JohnDo@gmail.com"
+          placeholder="Your@email.com"
         />
         {emailError && <p style={errorStyle}>{emailError}</p>}
         <textarea

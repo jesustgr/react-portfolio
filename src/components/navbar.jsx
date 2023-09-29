@@ -4,7 +4,7 @@ function Navbar() {
   const navStyle = {
     display: 'flex',
     justifyContent: 'end',
-    backgroundColor: 'white',
+    backgroundColor: 'rgb(200,50,50)',
     listStyle: 'none',
     padding: '20px',
   };

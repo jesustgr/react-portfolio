@@ -1,4 +1,4 @@
-import projectCard from '../components/projectCard';
+import ProjectCard from '../components/projectCard';
 
 export default function Projects() {
   const mainDiv = {
@@ -16,53 +16,35 @@ export default function Projects() {
     <div style={mainDiv}>
       <h1 style={{ marginTop: '30px' }}>Check Out My Projects !</h1>
       <div style={cardContainer}>
-        <projectCard
-          name="forumZ"
-          deployed="https://forumz-090c0b5b4bff.herokuapp.com/"
-          repo="https://github.com/Lopez-Jordan/forumZ"
-          imagePath="/forumZ.png"
-        />
-        <projectCard
+        <ProjectCard
           name="Crypto Portfolio"
           deployed="https://ailllycxr.github.io/cryptoDashboard/"
-          repo="https://github.com/Lopez-Jordan/cryptoDashboard"
+          repo="https://github.com/Ailllycxr/cryptoDashboard"
           imagePath="/crypto.png"
         />
-        <projectCard
-          name="SQL project"
-          deployed="https://github.com/Lopez-Jordan/Employee-Tracker"
-          repo="https://github.com/Lopez-Jordan/Employee-Tracker"
-          imagePath="/employeeTracker.png"
+        <ProjectCard
+          name="Black Jack Simulator"
+          deployed="https://blackjack-card-counter-2023-1f1cb4da18a4.herokuapp.com/"
+          repo="https://github.com/alam2tg/Card-Counting-Blackjack"
+          imagePath="/bj.png"
         />
-        <projectCard
-          name="Weather Report"
-          deployed="https://lopez-jordan.github.io/weather-app/"
-          repo="https://github.com/Lopez-Jordan/weather-app"
+        <ProjectCard
+          name="Social Network API"
+          deployed="https://github.com/jesustgr/social-network-api"
+          repo="https://github.com/jesustgr/social-network-api"
+          imagePath="/employee.png"
+        />
+        <ProjectCard
+          name="Weather Dashboard"
+          deployed="https://jesustgr.github.io/weather-dashboard/"
+          repo="https://github.com/jesustgr/weather-dashboard"
           imagePath="/weather.png"
         />
-        <projectCard
-          name="JS Quiz"
-          deployed="https://lopez-jordan.github.io/javascript-quiz/"
-          repo="https://github.com/Lopez-Jordan/javascript-quiz"
-          imagePath="/quiz.png"
-        />
-        <projectCard
-          name="Portfolio #1"
-          deployed="https://lopez-jordan.github.io/second-portfolio-project/"
-          repo="https://github.com/Lopez-Jordan/second-portfolio-project"
-          imagePath="/portfolio.png"
-        />
-          <projectCard
-          name="MongoDB"
-          deployed=""
-          repo="https://github.com/Lopez-Jordan/social-network-background"
-          imagePath="/demo.png"
-        />
-        <projectCard
-          name="Surf Report"
-          deployed="https://surf-report-app-7b1dc82c323b.herokuapp.com/"
-          repo="https://github.com/Lopez-Jordan/Surf-Report"
-          imagePath="/surfReport.png"
+        <ProjectCard
+          name="Work Day Scheduler"
+          deployed="https://jesustgr.github.io/work-day-scheduler/"
+          repo="https://github.com/jesustgr/work-day-scheduler"
+          imagePath="/workday.png"
         />
       </div>
     </div>
